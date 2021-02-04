@@ -1,0 +1,175 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.login-div{
+    width: 250px;
+    height: 330px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0px  7px 25px 0px rgba(206, 114, 39, 0.7);
+    /* box-shadow: top bottom left right color; */     
+}
+
+.opacity-back{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    background-color: rgb(46, 9, 78);
+}
+
+.header{
+    position: relative;
+    height: 50%;   
+}
+
+.welcome{
+    position: absolute;
+    color: white;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    margin-top: 20px;
+    z-index:1;
+}
+
+.welcome-message{
+    position: absolute;
+    margin-top: 10px;
+    color: rgb(209, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5px;
+    top: 50px;
+    margin-right: 10px;
+    margin-left: 20px;
+    z-index:1;
+}
+
+.label-bottom{
+    color: white;
+    font-size: 8px;
+    position: absolute;
+    top: 145px;
+    left: 10px;
+    
+}
+
+
+.footer{
+    position: relative;
+    margin: 0;
+    height: 50%;
+    background-color: white;
+    
+}
+
+.footer-element{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.footer-element h5{
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    margin-left: 5px;
+    top: 10%;
+    left: 30%;
+    color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name-input{
+    margin-top: 10px;
+    border: none;
+    color: white;
+    padding-left: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-sizing: border-box;
+    background-color: #A683B9;
+    height: 17px;
+    width: 150px;
+    font-size: 7px;
+    margin-left: 20px; background-repeat: no-repeat;
+    
+}
+.pass-input{
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 7px;
+    margin-left: 20px;
+    padding-left: 5px;
+    color: white;
+    background-color: #A683B9;
+    border: none;
+    height: 17px;
+    width: 150px;
+    font-size: 7px;
+    box-sizing: border-box;
+}
+
+.remember{
+    font-size: 8px;
+    float: left;
+    color: purple;
+}
+
+.forgot{
+    font-size: 8px;
+    float: right;
+    color: purple;
+}
+input[type="button"]{
+    display: block;
+    margin: 0 auto;
+    background-color: purple;
+    border: none;
+    padding: 3px;
+    color: white;
+    width: 55px;
+    font-size: 7px;
+    font-weight: bold;
+}
+
+.clear{
+    clear: both;
+    margin-bottom: 5px;
+}
+
+input[type="button"]:hover{
+    cursor: pointer;
+}
+
+.label-bottom:hover{
+    cursor: pointer;
+    font-size: 10px;
+    color: pink;
+    font-weight: bold;
+}
+
+.remember:hover{
+    cursor: pointer;
+    color: pink;
+    font-weight: bolder;
+}
+
+.forgot:hover{
+    cursor: pointer;
+    color: pink;
+    font-weight: bolder;
+}
+
+::placeholder{
+    color: white;
+    font-size: 7px;
+}
+
+::selection{
+    color: #A683B9;
+}
